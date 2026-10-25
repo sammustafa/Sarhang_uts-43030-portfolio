@@ -1,0 +1,8 @@
+{
+  "name": "sarhang-ai-portfolio",
+  "private": true,
+  "version": "1.0.0",
+  "description": "A professional, accessible static portfolio for GitHub Pages",
+  "scripts": {"build": "sass --no-source-map scss/main.scss css/main.css", "watch": "sass --watch scss/main.scss:css/main.css"},
+  "devDependencies": {"sass": "^1.93.0"}
+}
